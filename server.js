@@ -7,7 +7,7 @@ app.use(bodyParser.json());
 
 const MongoClient = require('mongodb').MongoClient;
 // IMPORTANT: The link below is my database you can change to your database if needed
-const url ='mongodb+srv://jacobpacheco2021:6Rz0MZ2WT0Ezm4Hu@cluster0.xwx45ll.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0';
+const url ='insert database link';
 const client = new MongoClient(url);
 client.connect();
 
